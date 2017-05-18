@@ -1,3 +1,5 @@
+## Die Unterschiede zwischen physischer und logischer Netzwerk-Adressierung
+
 ## Die physische Adresse bei einer Netzwerkkarte ist einzigartig. Die logische Adresse, meist TCP/IP, wird für Netzwerk-Routing-Zwecke zugewiesen.
 
 Das OSI-Modell ist ein guter Startpunkt, wenn Sie mehr über die Unterschiede zwischen logischer und physischer Adressierung lernen möchten. Betrachten Sie die physische Adresse \(Physical Address\) als die 48-Bit-MAC-Adresse, die Hersteller in die Netzwerkkarten \(NIC\) implementieren.
