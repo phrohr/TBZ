@@ -6,7 +6,7 @@ Ein VLAN ist ein _**logisches Teilnetz **\(siehe _[_Die Unterschiede zwischen ph
 
 Jedes VLAN bildet \(wie ein normales, physisch separiertes Netzwerksegment\) eine eigene Broadcast-Domäne. Um den Verkehr zwischen den VLANs transparent zu vermitteln, benötigt man einen _**Router**_. Moderne Switches stellen diese Funktion intern zur Verfügung. Man spricht dann von einem _**Layer-3-Switch**_.
 
-_Man kann sich das VLAN in einem Kabel oder einer Glasfaser so vorstellen, dass innerhalb eines Kupferdrahtes **mehrere virtuelle Kupferdrähte** angeordnet sind und im Innern des Switches jeder Kupferdraht separat geswitcht wird. Jeder Port des Switches hat somit unterschiedliche VLANs aufgeschaltet. Aus diesem Grund darf **niemals ein Kabel** von einem Port am VLAN-Switch **ohne Rekonfiguration** der Ports am Switch **umgesteckt** werden. Sonst kann es geschehen, dass die VLANs an die falschen Geräte und Switches weitergeleitet werden und die Dienste nicht dort zur Verfügung stehen, wo sie sollten.        
+_Man kann sich das VLAN in einem Kabel oder einer Glasfaser so vorstellen, dass innerhalb eines Kupferdrahtes **mehrere virtuelle Kupferdrähte** angeordnet sind und im Innern des Switches jeder Kupferdraht separat geswitcht wird. Jeder Port des Switches hat somit unterschiedliche VLANs aufgeschaltet. Aus diesem Grund darf **niemals ein Kabel** von einem Port am VLAN-Switch **ohne Rekonfiguration** der Ports am Switch **umgesteckt** werden. Sonst kann es geschehen, dass die VLANs an die falschen Geräte und Switches weitergeleitet werden und die Dienste nicht dort zur Verfügung stehen, wo sie sollten.          
 _
 
 Wie schon angedeutet, muss der Switch VLAN’s unterstützen. Aber auch die Netzwerkkarte im Server/PC kann VLAN-fähig und somit über verschiedene VLAN’s erreichbar sein.
@@ -52,7 +52,7 @@ Wenn sich ein VLAN über mehrere Switches erstreckt, ist zu deren Verbindung ent
 
 * _**Tagged VLAN’s:**_
 
-  Das heute fast ausschließlich verwendete Ethernet-Datenblockformat Ethernet-II nach IEEE 802.3 mit 802.1Q VLAN-Tag:
+  Das heute fast ausschliesslich verwendete Ethernet-Datenblockformat Ethernet-II nach IEEE 802.3 mit 802.1Q VLAN-Tag:
 
   ![](http://www.teklounge.ch/wp-content/uploads/vlantutorial/VLAN.jpg)
 
