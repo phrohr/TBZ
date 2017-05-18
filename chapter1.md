@@ -6,7 +6,7 @@ Ein VLAN ist ein _**logisches Teilnetz **\(siehe _[_Die Unterschiede zwischen ph
 
 Jedes VLAN bildet \(wie ein normales, physisch separiertes Netzwerksegment\) eine eigene Broadcast-Domäne. Um den Verkehr zwischen den VLANs transparent zu vermitteln, benötigt man einen _**Router**_. Moderne Switches stellen diese Funktion intern zur Verfügung. Man spricht dann von einem _**Layer-3-Switch**_.
 
-_Man kann sich das VLAN in einem Kabel oder einer Glasfaser so vorstellen, dass innerhalb eines Kupferdrahtes **mehrere virtuelle Kupferdrähte** angeordnet sind und im Innern des Switches jeder Kupferdraht separat geswitcht wird. Jeder Port des Switches hat somit unterschiedliche VLANs aufgeschaltet. Aus diesem Grund darf **niemals ein Kabel** von einem Port am VLAN-Switch **ohne Rekonfiguration** der Ports am Switch **umgesteckt** werden. Sonst kann es geschehen, dass die VLANs an die falschen Geräte und Switches weitergeleitet werden und die Dienste nicht dort zur Verfügung stehen, wo sie sollten.          
+_Man kann sich das VLAN in einem Kabel oder einer Glasfaser so vorstellen, dass innerhalb eines Kupferdrahtes **mehrere virtuelle Kupferdrähte** angeordnet sind und im Innern des Switches jeder Kupferdraht separat geswitcht wird. Jeder Port des Switches hat somit unterschiedliche VLANs aufgeschaltet. Aus diesem Grund darf **niemals ein Kabel** von einem Port am VLAN-Switch, **ohne Rekonfiguration** der Ports am Switch, **umgesteckt** werden. Sonst kann es geschehen, dass die VLANs an die falschen Geräte und Switches weitergeleitet werden und die Dienste nicht dort zur Verfügung stehen, wo sie sollten. Daraus lässt sich ableiten, dass Switches mit VLANs entsprechend vor Fremdzugriff geschützt werden müssen. Zusätzlich erleichtert eine entsprechende Bechriftung und Dokumentation der Ports die Administration des Netzwerks.  
 _
 
 Wie schon angedeutet, muss der Switch VLAN’s unterstützen. Aber auch die Netzwerkkarte im Server/PC kann VLAN-fähig und somit über verschiedene VLAN’s erreichbar sein.
@@ -41,6 +41,10 @@ Jedes VLAN bildet \(wie ein normales, physisch separiertes Netzwerksegment\) ein
 # 2.4 Verbindung von VLAN-Switches
 
 Wenn sich ein VLAN über mehrere Switches erstreckt, ist zu deren Verbindung entweder für jedes VLAN ein eigener Link \(Kabel\) erforderlich, oder es kommen sogenannte VLAN-Trunks \(VLT\) zum Einsatz. Das Verfahren entspricht einem asynchronen Multiplexing. Deshalb dient ein VLT dazu, Daten der unterschiedlichen VLAN’s über eine einzige Verbindung weiterzuleiten. Hierzu können sowohl einzelne Ports als auch gebündelte Ports \(siehe Link Aggregation\) zum Einsatz kommen.
+
+Beispiel eines einfachen VLAN-Netzwerks:
+
+![](/assets/import.png)
 
 # 2.5 VLAN-Typen
 
