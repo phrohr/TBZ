@@ -1,4 +1,6 @@
-Das OSI-Modell ist ein guter Startpunkt, wenn Sie mehr über die Unterschiede zwischen logischer und physischer Adressierung lernen möchten. Betrachten Sie die physische Adresse \(Physical Address\) als die 48-Bit-MAC-Adresse, die Hersteller in die Netzwerkkarten \(NIC\) implementieren. 
+## Die physische Adresse bei einer Netzwerkkarte ist einzigartig. Die logische Adresse, meist TCP/IP, wird für Netzwerk-Routing-Zwecke zugewiesen.
+
+Das OSI-Modell ist ein guter Startpunkt, wenn Sie mehr über die Unterschiede zwischen logischer und physischer Adressierung lernen möchten. Betrachten Sie die physische Adresse \(Physical Address\) als die 48-Bit-MAC-Adresse, die Hersteller in die Netzwerkkarten \(NIC\) implementieren.
 
 Diese Adresse ist einzigartig und man nennt sie auch [Ethernet](http://www.searchnetworking.de/definition/Ethernet)- oder Hardware-Adresse. Sie lässt sich zwar nicht ändern, aber fälschen \(Spoofing\). Die MAC- oder Ethernet-Adresse ist mit Layer 2 \(der Data Link\) des OSI-Modells verbunden.
 
